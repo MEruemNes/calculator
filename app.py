@@ -12,7 +12,7 @@ wrt1 = st.number_input("Writing 1", min_value=0,max_value=100)
 wrt2 = st.number_input("Writing 2", min_value=0,max_value=100)
 
 
-st.subheader("Other Quizzes")
+st.subheader("Others")
 dbt = st.number_input("Debate", min_value=0,max_value=100)
 prj = st.number_input("Project", min_value=0,max_value=100)
 ohmw = st.number_input("Online Homework", min_value=0,max_value=100)
@@ -26,13 +26,13 @@ if st.button("Calculate"):
     st.success(f"Required Marks(Only for EMT): {round(resultforfinal,3)}")
 
     if result >= 50:
-        st.info("YOU ARE SUPERMAN 💪")
+        st.info(":/")
     elif result >= 40:
-        st.warning("YOU SHOULD STUDY A BIT 📚")
+        st.warning(":/")
     elif result >= 30:
-        st.warning("YOU HAVE TO STUDY MORE ⚠️")
+        st.warning(":/")
     else:
-        st.error("YOU SHOULD GET LUCKY 🤞")
+        st.error(":/")
         
         st.markdown("___")
     st.markdown("**Developed by Enes**")
