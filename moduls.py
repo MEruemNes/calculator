@@ -18,8 +18,11 @@ linkler = {
 
 if st.button("Devam Et"):
     secilen_link = linkler.get(modul)
+
+    # Yeni sekmede otomatik açılacak JavaScript
     js = f"""
-    <meta http-equiv="refresh" content="0; url={secilen_link}">
-    <p>Yönlendiriliyorsunuz... Eğer yönlendirilmezseniz <a href="{secilen_link}">buraya tıklayın</a>.</p>
+    <script>
+        window.open("{secilen_link}", "_blank").focus();
+    </script>
     """
-    st.markdown(js, unsafe_allow_html=True)
+    st.components.v1.html(js)
