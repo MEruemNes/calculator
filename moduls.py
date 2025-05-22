@@ -11,9 +11,9 @@ modul = st.radio(
 
 linkler = {
     "1 - A1": "https://modals-g7cu5ktfzykprym4cgb6gg.streamlit.app/",
-    "2 - A2": "https://modals-3h6eb69pkbcyk63hgxux98.streamlit.app/",
-    "3 - B1": "https://calculator-spsxvhcsbgr9fj4v9f8mmg.streamlit.app/",
-    "4 - B2": "https://calculator-jctqjn5zjrrasjtf2jw5wi.streamlit.app/"
+    "2 - A2": "https://modals-auezyp3qed7n9c2x2rdmae.streamlit.app/",
+    "3 - B1": "https://modals-6kbg3v67mqrpf3non4ntp3.streamlit.app/",
+    "4 - B2": "https://modals-bxyitmykzn3hlkkc4ftdvn.streamlit.app/"
 }
 
 # Seçilen modül için bağlantı göster
