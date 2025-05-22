@@ -16,13 +16,3 @@ linkler = {
     "4 - B2": "https://calculator-jctqjn5zjrrasjtf2jw5wi.streamlit.app/"
 }
 
-if st.button("Devam Et"):
-    secilen_link = linkler.get(modul)
-
-    # Yeni sekmede otomatik açılacak JavaScript
-    js = f"""
-    <script>
-        window.open("{secilen_link}", "_blank").focus();
-    </script>
-    """
-    st.components.v1.html(js)
