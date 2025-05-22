@@ -16,3 +16,6 @@ linkler = {
     "4 - B2": "https://calculator-jctqjn5zjrrasjtf2jw5wi.streamlit.app/"
 }
 
+# Seçilen modül için bağlantı göster
+secilen_link = linkler[modul]
+st.markdown(f"[👉 Seçtiğiniz modüle gitmek için buraya tıklayın]({secilen_link})", unsafe_allow_html=True)
